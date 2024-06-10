@@ -2,8 +2,6 @@ package br.com.dio.desafio;
 
 import java.time.LocalDate;
 
-import javax.xml.crypto.Data;
-
 public class Main {
 
 	public static void main(String[] args) {
@@ -20,7 +18,7 @@ public class Main {
 		curso2.setCargaHoraria(4);
 		
 		
-		mentoria mentoria1 = new mentoria();
+		Mentoria mentoria1 = new Mentoria();
 		mentoria1.setTitulo("Mentoria java");
 		mentoria1.setDescricao("Descriçao do curso de java");
 		mentoria1.setData(LocalDate.now());
